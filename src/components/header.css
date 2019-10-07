@@ -1,0 +1,23 @@
+.Header ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.Header .active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.Header li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+    display: inline;
+}
+.Header h3 {
+    display: inline-block;
+   margin-right: 2rem;
+}

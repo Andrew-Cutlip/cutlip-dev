@@ -1,10 +1,14 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import "./footer.css"
 
-const footer = ({siteTitle}) => {
-    <footer>
-        {siteTitle}
+const Footer = () => {
+    return (
+    <footer className="Footer">
+        <ul>
+            <li>&copy 2019 Cutlip Web Design</li>
+        </ul>
     </footer>
+    )
 }
-export default footer
+
+export default Footer
